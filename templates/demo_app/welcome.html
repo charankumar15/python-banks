@@ -1,0 +1,107 @@
+{%load my_tags%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Page</title>
+    
+    <style>
+        body {
+            color: #ffffff;
+            background-color: #140118;
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 0;
+            margin-left: 20px;
+            /* border-top-color: #e6dfdf; */
+        }
+        
+        header {
+            text-align: center;
+            margin-top: 20px;
+           
+        }
+        
+        header h1 {
+            color: #007bff; 
+        }
+        
+        header p {
+            color: #cccccc;
+        }
+
+        section h2 {
+            color: #28a745; 
+        }
+        
+        section p {
+            color: #ffffff; 
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            /* margin-bottom: 20px; */
+        }
+        
+        .social-icons a {
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        footer p {
+            color: #e01818;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Django </h1>
+        <p>Hello everyone! I'm excited to share my experiences and learnings with you.</p>
+<!-- 
+{{ name|say_hi}}<br>
+
+{{ name|say_message:"Hello "}}<br>
+
+T0tal:{% my_simple_tag 10 20 30 40 %}<br> -->
+    </header>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <h3> I'M CHARANKUMAR</h3>
+        <p>I'm a recent graduate with a Bachelor's degree in Computer Application (2019-2022) from Hindustan University.</p>
+        <p>Currently, I'm studying full stack Python at FITA, where I'm gaining expertise in web development.</p>
+    </section>
+
+    <section class="experience">
+        <h2>college</h2>
+        <h3>Hindustan University</h3>
+        <p>I studied at Hindustan University</p>
+        <h2>PART-TIME</h2>
+        <p>As a part-time job, I worked as a video editor and content creator, honing my skills in multimedia production.</p>
+
+    </section>
+
+    <div class="social-icons">
+        <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com"><img src="youtube.png" alt="YouTube"></a>
+        <a href="https:gmail@email.com"><img src="gmail.png" alt="Gmail"></a>
+    </div>
+    
+
+    <footer>
+        <p>Thank you for visiting my page.</p>
+    </footer>
+</body>
+</html>
